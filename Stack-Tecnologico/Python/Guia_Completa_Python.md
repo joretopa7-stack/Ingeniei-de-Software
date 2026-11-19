@@ -847,95 +847,128 @@ Toma un conjunto de tareas de I/O, implementa versión secuencial y versión `as
 
 Para ampliar con fuentes primarias, empieza por la [documentación oficial de Python](https://docs.python.org/3/), su [tutorial](https://docs.python.org/3/tutorial/) y la [referencia del lenguaje](https://docs.python.org/3/reference/). Para instalación consulta las páginas oficiales de [Windows](https://docs.python.org/3/using/windows.html), [macOS](https://docs.python.org/3/using/mac.html) y [Unix/Linux](https://docs.python.org/3/using/unix.html). Para empaquetado y publicación, consulta la [Python Packaging User Guide de PyPA](https://packaging.python.org/en/latest/); para índices de paquetes, [PyPI](https://pypi.org/). PEP 8, PEP 257 y los PEP de tipado describen convenciones y propuestas aceptadas, con alcance indicado en cada documento. Las páginas de proyectos externos no reemplazan revisar versión, licencia y soporte.
 
-## References
+# Referencias bibliográficas
 
-[1]: https://www.python.org/downloads/release/python-3152/ "Python 3.15.2"
-[2]: https://devguide.python.org/versions/ "Estado de las versiones de Python"
-[3]: https://docs.python.org/3/faq/general.html "FAQ general de Python"
-[4]: https://docs.python.org/3/tutorial/index.html "El tutorial oficial de Python"
-[5]: https://www.python.org/about/ "Acerca de Python"
-[6]: https://www.python.org/doc/sunset-python-2/ "Fin del soporte de Python 2"
-[7]: https://peps.python.org/pep-0602/ "PEP 602: ciclo anual de versiones de Python"
-[8]: https://www.python.org/about/apps/ "Aplicaciones de Python"
-[9]: https://docs.python.org/3.15/reference/lexical_analysis.html "Referencia del lenguaje: análisis léxico"
-[10]: https://docs.python.org/3.15/reference/expressions.html "Referencia del lenguaje: expresiones"
-[11]: https://peps.python.org/pep-0008/ "PEP 8: guía de estilo para código Python"
-[12]: https://docs.python.org/3.15/reference/compound_stmts.html "Referencia del lenguaje: sentencias compuestas"
-[13]: https://peps.python.org/pep-0257/ "PEP 257: convenciones de docstrings"
-[14]: https://docs.python.org/3.15/library/exceptions.html "Excepciones incorporadas"
-[15]: https://docs.python.org/3.15/reference/datamodel.html "Modelo de datos de Python"
-[16]: https://docs.python.org/3.15/library/stdtypes.html "Tipos incorporados"
-[17]: https://docs.python.org/3.15/library/typing.html "typing: soporte para sugerencias de tipos"
-[18]: https://typing.python.org/en/latest/spec/concepts.html "Especificación del sistema de tipos de Python"
-[19]: https://docs.python.org/3.15/tutorial/controlflow.html "Tutorial: herramientas de control de flujo"
-[20]: https://docs.python.org/3.15/reference/executionmodel.html "Modelo de ejecución de Python"
-[21]: https://docs.python.org/3.15/tutorial/datastructures.html "Tutorial: estructuras de datos"
-[22]: https://docs.python.org/3.15/builtins/time-complexity.html "Complejidad temporal de operaciones en tipos integrados de CPython"
-[23]: https://networkx.org/documentation/stable/tutorial.html "Tutorial de NetworkX"
-[24]: https://docs.python.org/3.15/library/collections.html "collections: tipos de datos contenedores"
-[25]: https://docs.python.org/3.15/tutorial/classes.html "Tutorial: clases"
-[26]: https://rxpy.readthedocs.io/en/latest/get_started.html "RxPY: primeros pasos"
-[27]: https://docs.python.org/3.15/reference/import.html "Sistema de importación"
-[28]: https://packaging.python.org/en/latest/tutorials/packaging-projects/ "Empaquetar proyectos Python"
-[29]: https://packaging.python.org/en/latest/guides/packaging-namespace-packages/ "Empaquetado de paquetes de espacio de nombres"
-[30]: https://packaging.python.org/en/latest/guides/writing-pyproject-toml/ "Escribir pyproject.toml"
-[31]: https://docs.python.org/3.15/library/gc.html "gc: interfaz del recolector de basura"
-[33]: https://docs.python.org/3.15/c-api/refcounting.html "Conteo de referencias en la C API"
-[34]: https://docs.python.org/3.15/library/functions.html "Funciones incorporadas"
-[35]: https://docs.python.org/3.15/library/pathlib.html "pathlib: rutas del sistema de archivos"
-[36]: https://docs.python.org/3.15/library/io.html "io: herramientas para flujos"
-[37]: https://docs.python.org/3.15/library/json.html "json: codificador y decodificador"
-[38]: https://docs.python.org/3.15/library/csv.html "csv: lectura y escritura"
-[39]: https://docs.python.org/3.15/library/xml.etree.elementtree.html "xml.etree.ElementTree: API XML"
-[40]: https://docs.python.org/3.15/library/xml.html "Procesamiento XML y seguridad"
-[41]: https://docs.python.org/3.15/library/pickle.html "pickle: serialización de objetos Python"
-[42]: https://docs.python.org/3.15/glossary.html "Glosario: concurrencia, paralelismo y GIL"
-[43]: https://docs.python.org/3.15/library/threading.html "threading: paralelismo basado en hilos"
-[44]: https://docs.python.org/3.15/howto/free-threading-python.html "Compatibilidad de Python con free threading"
-[45]: https://docs.python.org/3.15/library/asyncio-task.html "asyncio: corutinas y tareas"
-[46]: https://docs.python.org/3.15/library/multiprocessing.html "multiprocessing: paralelismo basado en procesos"
-[47]: https://docs.python.org/3.15/library/concurrent.futures.html "concurrent.futures: ejecución concurrente de funciones"
-[48]: https://docs.python.org/3.15/tutorial/errors.html "Tutorial: errores y excepciones"
-[49]: https://peps.python.org/pep-3134/ "PEP 3134: encadenamiento de excepciones"
-[50]: https://docs.python.org/3.15/library/traceback.html "traceback: imprimir o recuperar una traza"
-[51]: https://docs.python.org/3.15/library/logging.html "logging: sistema de registro de eventos"
-[52]: https://docs.python.org/3.15/library/pdb.html "pdb: depurador de Python"
-[53]: https://docs.python.org/3.15/library/security_warnings.html "Consideraciones de seguridad"
-[54]: https://docs.python.org/3.15/library/subprocess.html "subprocess: gestión de subprocesos"
-[55]: https://docs.python.org/3.15/library/sqlite3.html "sqlite3: interfaz de bases de datos SQLite"
-[56]: https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html "OWASP: prevención de inyección SQL"
-[57]: https://docs.python.org/3.15/library/html.html "html: utilidades HTML"
-[58]: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html "OWASP: prevención de XSS"
-[59]: https://docs.python.org/3.15/library/secrets.html "secrets: generación de valores secretos"
-[60]: https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html "OWASP: gestión de secretos"
-[61]: https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html "OWASP: almacenamiento de contraseñas"
-[62]: https://github.com/pypa/pip-audit "pip-audit: auditoría de vulnerabilidades de paquetes"
-[63]: https://pip.pypa.io/en/stable/topics/secure-installs/ "pip: instalaciones seguras"
-[64]: https://docs.python.org/3.15/using/windows.html "Uso de Python en Windows"
-[65]: https://docs.python.org/3.15/using/mac.html "Uso de Python en macOS"
-[66]: https://docs.python.org/3.15/using/unix.html "Uso de Python en plataformas Unix"
-[67]: https://docs.python.org/3.15/using/configure.html "Configuración y construcción de Python"
-[68]: https://docs.python.org/3.15/tutorial/interpreter.html "Tutorial: uso del intérprete de Python"
-[69]: https://docs.python.org/3.15/library/venv.html "venv: creación de entornos virtuales"
-[70]: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/ "Instalar paquetes en un entorno virtual"
-[71]: https://docs.python.org/3.15/using/editors.html "Editores e IDE"
-[72]: https://code.visualstudio.com/docs/python/python-tutorial "Introducción a Python en Visual Studio Code"
-[73]: https://docs.astral.sh/ruff/tutorial/ "Tutorial de Ruff"
-[74]: https://docs.python.org/3.15/library/unittest.html "unittest: marco de pruebas unitarias"
-[75]: https://docs.python.org/3.15/library/unittest.mock.html "unittest.mock: biblioteca de objetos simulados"
-[76]: https://docs.pytest.org/en/stable/getting-started.html "pytest: primeros pasos"
-[77]: https://coverage.readthedocs.io/en/latest/commands/cmd_run.html "coverage.py: medir ejecución"
-[78]: https://docs.python.org/3.15/library/index.html "Biblioteca estándar de Python"
-[79]: https://pypi.org/help/ "Ayuda de PyPI"
-[80]: https://packaging.python.org/en/latest/guides/tool-recommendations/ "PyPA: recomendaciones de herramientas"
-[81]: https://docs.djangoproject.com/en/6.1/intro/overview/ "Django: visión general"
-[82]: https://flask.palletsprojects.com/en/stable/ "Documentación de Flask"
-[83]: https://fastapi.tiangolo.com/ "Documentación de FastAPI"
-[84]: https://pip.pypa.io/en/stable/topics/repeatable-installs/ "pip: instalaciones repetibles"
-[85]: https://www.python.org/doc/ "Documentación de Python"
-[86]: https://peps.python.org/pep-0020/ "PEP 20: el Zen de Python"
-[87]: https://refactoring.com/ "Refactoring: Martin Fowler"
-[88]: https://en.wikipedia.org/wiki/SOLID "Principios SOLID"
-[89]: https://docs.astral.sh/ruff/formatter/ "Formateador Ruff"
-[90]: https://google.github.io/eng-practices/review/reviewer/standard.html "Google: estándar de revisión de código"
-[91]: https://docs.python.org/3/ "Documentación oficial de Python 3"
+Fuentes oficiales y documentación técnica utilizadas para elaborar esta guía. Se priorizan la documentación oficial de Python, las PEP, PyPA y herramientas reconocidas del ecosistema.
+
+## 1. Python: fundamentos y documentación general
+
+- [1. Python 3.15.2](https://www.python.org/downloads/release/python-3152/)
+- [2. Estado de las versiones de Python](https://devguide.python.org/versions/)
+- [3. FAQ general de Python](https://docs.python.org/3/faq/general.html)
+- [4. El tutorial oficial de Python](https://docs.python.org/3/tutorial/index.html)
+- [5. Acerca de Python](https://www.python.org/about/)
+- [6. Fin del soporte de Python 2](https://www.python.org/doc/sunset-python-2/)
+- [7. PEP 602: ciclo anual de versiones de Python](https://peps.python.org/pep-0602/)
+- [8. Aplicaciones de Python](https://www.python.org/about/apps/)
+- [85. Documentación de Python](https://www.python.org/doc/)
+- [86. PEP 20: el Zen de Python](https://peps.python.org/pep-0020/)
+
+## 2. Sintaxis, estructura y estilo del lenguaje
+
+- [9. Referencia del lenguaje: análisis léxico](https://docs.python.org/3.15/reference/lexical_analysis.html)
+- [10. Referencia del lenguaje: expresiones](https://docs.python.org/3.15/reference/expressions.html)
+- [11. PEP 8: guía de estilo para código Python](https://peps.python.org/pep-0008/)
+- [12. Referencia del lenguaje: sentencias compuestas](https://docs.python.org/3.15/reference/compound_stmts.html)
+- [13. PEP 257: convenciones de docstrings](https://peps.python.org/pep-0257/)
+- [14. Excepciones incorporadas](https://docs.python.org/3.15/library/exceptions.html)
+- [15. Modelo de datos de Python](https://docs.python.org/3.15/reference/datamodel.html)
+- [16. Tipos incorporados](https://docs.python.org/3.15/library/stdtypes.html)
+- [17. typing: soporte para sugerencias de tipos](https://docs.python.org/3.15/library/typing.html)
+- [18. Especificación del sistema de tipos](https://typing.python.org/en/latest/spec/concepts.html)
+- [19. Tutorial: herramientas de control de flujo](https://docs.python.org/3.15/tutorial/controlflow.html)
+- [20. Modelo de ejecución de Python](https://docs.python.org/3.15/reference/executionmodel.html)
+- [34. Funciones incorporadas](https://docs.python.org/3.15/library/functions.html)
+- [42. Glosario: concurrencia, paralelismo y GIL](https://docs.python.org/3.15/glossary.html)
+
+## 3. Estructuras de datos y programación orientada a objetos
+
+- [21. Tutorial: estructuras de datos](https://docs.python.org/3.15/tutorial/datastructures.html)
+- [22. Complejidad temporal de operaciones en tipos integrados de CPython](https://docs.python.org/3.15/builtins/time-complexity.html)
+- [23. Tutorial de NetworkX](https://networkx.org/documentation/stable/tutorial.html)
+- [24. collections: tipos de datos contenedores](https://docs.python.org/3.15/library/collections.html)
+- [25. Tutorial: clases](https://docs.python.org/3.15/tutorial/classes.html)
+- [26. RxPY: primeros pasos](https://rxpy.readthedocs.io/en/latest/get_started.html)
+
+## 4. Módulos, paquetes y gestión de memoria
+
+- [27. Sistema de importación](https://docs.python.org/3.15/reference/import.html)
+- [28. Empaquetar proyectos Python](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+- [29. Empaquetado de paquetes de espacio de nombres](https://packaging.python.org/en/latest/guides/packaging-namespace-packages/)
+- [30. Escribir pyproject.toml](https://packaging.python.org/en/latest/guides/writing-pyproject-toml/)
+- [31. gc: interfaz del recolector de basura](https://docs.python.org/3.15/library/gc.html)
+- [33. Conteo de referencias en la C API](https://docs.python.org/3.15/c-api/refcounting.html)
+
+## 5. Archivos, entrada/salida y formatos de datos
+
+- [35. pathlib: rutas del sistema de archivos](https://docs.python.org/3.15/library/pathlib.html)
+- [36. io: herramientas para flujos](https://docs.python.org/3.15/library/io.html)
+- [37. json: codificador y decodificador](https://docs.python.org/3.15/library/json.html)
+- [38. csv: lectura y escritura](https://docs.python.org/3.15/library/csv.html)
+- [39. xml.etree.ElementTree: API XML](https://docs.python.org/3.15/library/xml.etree.elementtree.html)
+- [40. Procesamiento XML y seguridad](https://docs.python.org/3.15/library/xml.html)
+- [41. pickle: serialización de objetos Python](https://docs.python.org/3.15/library/pickle.html)
+
+## 6. Concurrencia, paralelismo y programación asíncrona
+
+- [43. threading: paralelismo basado en hilos](https://docs.python.org/3.15/library/threading.html)
+- [44. Compatibilidad de Python con free threading](https://docs.python.org/3.15/howto/free-threading-python.html)
+- [45. asyncio: corutinas y tareas](https://docs.python.org/3.15/library/asyncio-task.html)
+- [46. multiprocessing: paralelismo basado en procesos](https://docs.python.org/3.15/library/multiprocessing.html)
+- [47. concurrent.futures: ejecución concurrente de funciones](https://docs.python.org/3.15/library/concurrent.futures.html)
+
+## 7. Manejo de errores, depuración y registros
+
+- [48. Tutorial: errores y excepciones](https://docs.python.org/3.15/tutorial/errors.html)
+- [49. PEP 3134: encadenamiento de excepciones](https://peps.python.org/pep-3134/)
+- [50. traceback: imprimir o recuperar una traza](https://docs.python.org/3.15/library/traceback.html)
+- [51. logging: sistema de registro de eventos](https://docs.python.org/3.15/library/logging.html)
+- [52. pdb: depurador de Python](https://docs.python.org/3.15/library/pdb.html)
+
+## 8. Seguridad y buenas prácticas
+
+- [53. Consideraciones de seguridad](https://docs.python.org/3.15/library/security_warnings.html)
+- [54. subprocess: gestión de subprocesos](https://docs.python.org/3.15/library/subprocess.html)
+- [55. sqlite3: interfaz de bases de datos SQLite](https://docs.python.org/3.15/library/sqlite3.html)
+- [56. OWASP: prevención de inyección SQL](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+- [57. html: utilidades HTML](https://docs.python.org/3.15/library/html.html)
+- [58. OWASP: prevención de XSS](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)
+- [59. secrets: generación de valores secretos](https://docs.python.org/3.15/library/secrets.html)
+- [60. OWASP: gestión de secretos](https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html)
+- [61. OWASP: almacenamiento de contraseñas](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
+- [62. pip-audit: auditoría de vulnerabilidades de paquetes](https://github.com/pypa/pip-audit)
+- [63. pip: instalaciones seguras](https://pip.pypa.io/en/stable/topics/secure-installs/)
+
+## 9. Instalación, configuración y entornos de desarrollo
+
+- [64. Uso de Python en Windows](https://docs.python.org/3.15/using/windows.html)
+- [65. Uso de Python en macOS](https://docs.python.org/3.15/using/mac.html)
+- [66. Uso de Python en plataformas Unix](https://docs.python.org/3.15/using/unix.html)
+- [67. Configuración y construcción de Python](https://docs.python.org/3.15/using/configure.html)
+- [68. Tutorial: uso del intérprete de Python](https://docs.python.org/3.15/tutorial/interpreter.html)
+- [69. venv: creación de entornos virtuales](https://docs.python.org/3.15/library/venv.html)
+- [70. Instalar paquetes en un entorno virtual](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+- [71. Editores e IDE](https://docs.python.org/3.15/using/editors.html)
+- [72. Introducción a Python en Visual Studio Code](https://code.visualstudio.com/docs/python/python-tutorial)
+- [73. Tutorial de Ruff](https://docs.astral.sh/ruff/tutorial/)
+- [84. pip: instalaciones repetibles](https://pip.pypa.io/en/stable/topics/repeatable-installs/)
+
+## 10. Pruebas y calidad del software
+
+- [74. unittest: marco de pruebas unitarias](https://docs.python.org/3.15/library/unittest.html)
+- [75. unittest.mock: biblioteca de objetos simulados](https://docs.python.org/3.15/library/unittest.mock.html)
+- [76. pytest: primeros pasos](https://docs.pytest.org/en/stable/getting-started.html)
+- [77. coverage.py: medir ejecución](https://coverage.readthedocs.io/en/latest/commands/cmd_run.html)
+
+## 11. Biblioteca estándar, paquetes y frameworks
+
+- [78. Biblioteca estándar de Python](https://docs.python.org/3.15/library/index.html)
+- [79. Ayuda de PyPI](https://pypi.org/help/)
+- [80. PyPA: recomendaciones de herramientas](https://packaging.python.org/en/latest/guides/tool-recommendations/)
+- [81. Django: visión general](https://docs.djangoproject.com/en/6.1/intro/overview/)
+- [82. Documentación de Flask](https://flask.palletsprojects.com/en/stable/)
+- [83. Documentación de FastAPI](https://fastapi.tiangolo.com/)
+
+## 12. Lecturas complementarias
+
+- [87. Refactoring: Martin Fowler](https://refactoring.com/)
